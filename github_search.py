@@ -27,7 +27,7 @@ def github_search(access_token, repo_owner, repo_name, keyword):
 if __name__ == "__main__":
     access_token = "GITHUB_ACCESS_TOKEN"  
     predefined_repositories = [
-        {"owner": "esaits", "name": "eserv"},
+        {"owner": "rvasalya", "name": "simple-java-maven-app"},
         {"owner": "owner2", "name": "repo2"},
         # we can add other repositories as needed
     ]
