@@ -1,7 +1,7 @@
 import requests
 
 def github_search(access_token, repo_owner, repo_name, keyword):
-    url = f"https://github-dev.esa.dshs.wa.lcl/search/code"
+    url = f"https://github.com/jenkins-docs/simple-java-maven-app.git/code/search"
     headers = {
         "Authorization": f"Bearer {access_token}"
     }
