@@ -25,7 +25,7 @@ def github_search(access_token, repo_owner, repo_name, keyword):
         print("Error:", data.get("message", "An error occurred"))
 
 if __name__ == "__main__":
-    access_token = "GITHUB_ACCESS_TOKEN"  
+    access_token = "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"  
     predefined_repositories = [
         {"owner": "rvasalya", "name": "simple-java-maven-app"},
         {"owner": "owner2", "name": "repo2"},
